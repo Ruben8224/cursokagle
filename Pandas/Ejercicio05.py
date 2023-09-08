@@ -1,3 +1,14 @@
+import pandas as pd
+
+reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
+print("Setup complete.")
+
+import pandas as pd
+
+reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
+
+print("Setup complete.")
+
 #ejercicio 1
 # Your code here
 dtype = reviews['points'].dtype

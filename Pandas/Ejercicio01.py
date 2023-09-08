@@ -1,3 +1,7 @@
+import pandas as pd
+pd.set_option('display.max_rows', 5)
+print("Setup complete.")
+
 # Ejercicio 1:
 data = {'Apples': [30],
         'Bananas': [21]}
