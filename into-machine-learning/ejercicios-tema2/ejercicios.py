@@ -32,7 +32,7 @@ iowa_model.fit(X, y)
 # Imprime un mensaje de confirmación
 print("El modelo de regresión de árbol de decisión se ha creado y entrenado exitosamente.")
 
-
+#
 # Predice el resultado del modelo en los mismos datos de entrenamiento
 predictions = iowa_model.predict(X)
 
